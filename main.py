@@ -1,5 +1,7 @@
+import logging
+import tornado
 import tornado.ioloop
-from tornado.options import define, options, logging
+from tornado.options import define, options
 import tornado.web
 
 define("port", default=8888, help="run on the given port", type=int)
